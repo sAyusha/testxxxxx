@@ -1,0 +1,30 @@
+[
+    {
+      "title": "Sample Title 1",
+      "author": "Sample Author 1",
+      "description": "Sample Description 1",
+      "genre": "Sample Genre 1",
+      "language": "Sample Language 1",
+      "bookCover": "Sample Book Cover URL 1",
+      "date": "2023-07-05"
+    },
+    {
+      "title": "Sample Title 2",
+      "author": "Sample Author 2",
+      "description": "Sample Description 2",
+      "genre": "Sample Genre 2",
+      "language": "Sample Language 2",
+      "bookCover": "Sample Book Cover URL 2",
+      "date": "2023-07-05"
+    },
+    {
+      "title": "Sample Title 3",
+      "author": "Sample Author 3",
+      "description": "Sample Description 3",
+      "genre": "Sample Genre 3",
+      "language": "Sample Language 3",
+      "bookCover": "Sample Book Cover URL 3",
+      "date": "2023-07-05"
+    }
+  ]
+  
