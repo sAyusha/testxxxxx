@@ -6,7 +6,8 @@
       "genre": "Sample Genre 1",
       "language": "Sample Language 1",
       "bookCover": "Sample Book Cover URL 1",
-      "date": "2023-07-05"
+      "date": "2023-07-05",
+      "isBookmarked": true
     },
     {
       "title": "Sample Title 2",
@@ -15,7 +16,8 @@
       "genre": "Sample Genre 2",
       "language": "Sample Language 2",
       "bookCover": "Sample Book Cover URL 2",
-      "date": "2023-07-05"
+      "date": "2023-07-05",
+      "isBookmarked": true
     },
     {
       "title": "Sample Title 3",
@@ -24,7 +26,8 @@
       "genre": "Sample Genre 3",
       "language": "Sample Language 3",
       "bookCover": "Sample Book Cover URL 3",
-      "date": "2023-07-05"
+      "date": "2023-07-05",
+      "isBookmarked": true
     }
   ]
   

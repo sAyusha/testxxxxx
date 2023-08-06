@@ -1,0 +1,24 @@
+[
+    {
+        "bookId": "64c3c0fdd03169ab9fc6c753",
+        "title": "Sample Title 1",
+        "author": "Sample Author 1",
+        "description": "Sample Description 1",
+        "genre": "Sample Genre 1",
+        "language": "Sample Language 1",
+        "bookCover": "Sample Book Cover URL 1",
+        "user": "64c3c0fdd03169ab9fc6c766",
+        "date": "2023-07-05"
+    },
+    {
+        "bookId": "64c3c0fdd03169ab9fc6c754",
+        "title": "Sample Title 2",
+        "author": "Sample Author 2",
+        "description": "Sample Description 2",
+        "genre": "Sample Genre 2",
+        "language": "Sample Language 2",
+        "bookCover": "Sample Book Cover URL 2",
+        "user": "64c3c0fdd03169ab9fc6c766",
+        "date": "2023-07-05"
+    }
+]

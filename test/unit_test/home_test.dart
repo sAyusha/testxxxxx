@@ -22,13 +22,25 @@ void main() {
   TestWidgetsFlutterBinding.ensureInitialized();
   late ProviderContainer container;
   late HomeUseCase mockHomeUsecase;
+  late ProfileUseCase mockProfileUsecase;
+  late ExchangeRequestUseCase mockExchangeRequestUsecase;
   late List<BookEntity> homeEntity;
 
   setUpAll(() async {
     mockHomeUsecase = MockHomeUseCase();
+    mockProfileUsecase = MockProfileUseCase();
+    mockExchangeRequestUsecase = MockExchangeRequestUseCase();
     homeEntity = await getBookListTest();
 
     when(mockHomeUsecase.getAllBooks())
+        .thenAnswer((_) async => const Right([]));
+    when(mockHomeUsecase.getUserBooks())
+        .thenAnswer((_) async => const Right([]));
+    when(mockHomeUsecase.getBookmarkedBooks())
+        .thenAnswer((_) async => const Right([]));
+    when(mockProfileUsecase.getUserInfo())
+        .thenAnswer((_) async => const Right([]));
+    when(mockExchangeRequestUsecase.getExchangeRequests())
         .thenAnswer((_) async => const Right([]));
 
     container = ProviderContainer(
