@@ -14,3 +14,31 @@ Future<List<BookEntity>> getBookListTest() async {
 
   return Future.value(bookList);
 }
+
+Future<List<BookEntity>> getBookmarkedBooks() async {
+  final response =
+      await rootBundle.loadString('test_data/bookmarked_books_data.json');
+  final jsonList = await json.decode(response);
+
+  final List<BookEntity> bookmarked = jsonList
+      .map<BookEntity>(
+        (json) => BookEntity.fromJson(json),
+      )
+      .toList();
+
+  return Future.value(bookmarked);
+}
+
+Future<List<BookEntity>> getUserBooks() async {
+  final response =
+      await rootBundle.loadString('test_data/user_books_test.json');
+  final jsonList = await json.decode(response);
+
+  final List<BookEntity> userBooks = jsonList
+      .map<BookEntity>(
+        (json) => BookEntity.fromJson(json),
+      )
+      .toList();
+
+  return Future.value(userBooks);
+}
